@@ -1,0 +1,38 @@
+.main-heading h1
+{
+font-size: 90px;
+text-align: center;
+font-family: "Sedan SC", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.video-adcomsys
+{
+    z-index: -1;
+    margin-bottom: 22px;
+    border-radius: 100px;
+}
+.transparent-video {
+    z-index: -1;    
+    pointer-events: none; /* Allow click events to pass through */
+    /* Add other styles as needed */
+}
+
+
+
+.video-section
+{
+    position: absolute;
+}
+
+.another
+{
+    border: 2px solid red;
+    height: 50px;
+}
+
+#movingVideo {
+    position: absolute;
+  }

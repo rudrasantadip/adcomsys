@@ -1,0 +1,102 @@
+.navbar
+{
+    padding: 9px;
+    position: fixed;
+    left: 49%;
+    transform: translateX(-50%) translateY(50%) scale(1);
+    bottom: 0;
+    opacity: 0;
+   animation: appear 1s forwards;
+   animation-delay: 0.3s;
+
+}
+
+.navbar ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul li
+{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+.navbar ul li a
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.navbar ul li a .icon
+{
+position: relative;
+display: block;
+line-height: 75px;
+font-size: 1.5em;
+text-align: center;
+color: black;
+transition: 0.5s;
+
+}
+.navbar ul li:hover a .icon
+{
+    transform: translateY(-20px);
+}
+
+.navbar ul li a .txt
+{
+    position: absolute;
+    font-weight: 600;
+    color: black;
+    font-weight: 400px;
+    font-size: 0.8em;
+    letter-spacing: 0.05pm;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.navbar ul li:hover a .txt
+{
+opacity: 1;
+transform: translateY(10px);
+}
+
+.navbar ul li:hover
+{
+    cursor: pointer;
+}
+
+
+@keyframes appear
+{
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(50%) scale(1)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0) scale(1);
+    }
+}

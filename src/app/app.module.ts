@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { EventsComponent } from './components/events/events.component';
+import { TeamsComponent } from './components/teams/teams.component';
+import { AnimateOnScrollDirective } from './directives/animate-on-scroll.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    HomeComponent,
+    AboutComponent,
+    EventsComponent,
+    TeamsComponent,
+    AnimateOnScrollDirective
   ],
   imports: [
     BrowserModule,
