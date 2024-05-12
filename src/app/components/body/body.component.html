@@ -1,0 +1,39 @@
+<div class="header bg-light">
+    <div class="logo logo-adcomsys"><img [style.width.px]="getImageWidth()" src="/assets/images/adcomsys.webp" alt=""></div>
+  
+    <app-navigation (linkClicked)="scrollToSection($event)" ></app-navigation>
+  
+    <div class="colleges">
+      <div class="logo logo-iem"><img [style.width.px]="getImageWidth()" src="/assets/images/iem.webp" alt=""></div>
+      <div class="logo logo-uem"><img [style.width.px]="getImageWidth()" src="/assets/images/uem.webp" alt=""></div>
+    </div>  
+  </div>
+  
+  
+  <div class="heading">
+    <h2 [style.fontSize.px]="getFontSize()">First International Conference on Advanced Computing and Systems</h2>
+    <span></span>
+  </div>
+  
+  <div class="main">
+  
+  
+    <section class="home" id="section1">
+     <app-home></app-home>
+    </section>
+  
+  
+    <section class="about" id="section2">
+      <app-about></app-about>
+    </section>
+  
+  
+    <section class="events" id="section3">
+      <app-events></app-events>
+    </section>
+  
+    <section class="team" id="section4">
+      <app-teams></app-teams>
+    </section>
+    
+  </div>

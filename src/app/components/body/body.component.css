@@ -1,0 +1,107 @@
+.header
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 3px;
+transition: all 0.3s ease-in;
+animation-delay: 0.3s;
+}
+
+h2
+{
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.heading
+{
+  
+    position: absolute;
+    text-align: center;
+    top: 1.5%;
+    z-index: 1000;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.heading span
+{
+    font-weight: 700px;
+    font-size: 18px;
+    
+}
+.logo img
+{
+
+}
+
+.logo img
+{
+    animation: zoomIn 1s forwards;
+}
+.colleges
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.colleges div
+{
+   margin-right: 12px;
+   margin-left: 12px;
+}
+
+.main
+{
+/* border: 2px solid red; */
+}
+
+
+.home
+{
+    height: 700px;
+}
+
+.about
+{
+}
+
+.events
+{
+}
+
+.team
+{
+ height: 600px;  
+}
+
+
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0); /* Scale down */
+    }
+    to {
+        transform: scale(1); /* Scale up to original size */
+    }
+}
+
+
+.animated {
+    animation-name: fadeIn; /* Your animation name */
+    animation-duration: 1s; /* Animation duration */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Initial position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Final position */
+    }
+  }

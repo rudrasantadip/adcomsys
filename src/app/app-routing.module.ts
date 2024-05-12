@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoaderComponent } from './components/loader/loader.component';
-import { AppComponent } from './app.component';
+import { BodyComponent } from './components/body/body.component';
 
 const routes: Routes = [
  {path:'load',component:LoaderComponent},
- {path:'home',component:AppComponent},
- {path:'',redirectTo:'home',pathMatch:'full'}
+ {path:'home',component:BodyComponent},
+ {path:'',redirectTo:'load',pathMatch:'full'}
 ];
 
 @NgModule({
