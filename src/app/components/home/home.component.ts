@@ -36,6 +36,7 @@ export class HomeComponent implements OnInit {
     }
   }
 
+  //setting font size For larger headings
   getFontSize(): number {
     // Calculate font size based on screen width
     // You can adjust the logic based on your requirements
@@ -46,6 +47,7 @@ export class HomeComponent implements OnInit {
     }
   }
 
+  // setting gont size For normal text
   adcomsysFont():number
   {
     if (this.screenWidth >= 768) {

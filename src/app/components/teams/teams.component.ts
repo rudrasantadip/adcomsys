@@ -31,13 +31,13 @@ export class TeamsComponent
       name:'Soumik Das',
       designation:'Core Member',
       qualification:'7601885361',
-      image:''
+      image:'/assets/images/members/soumik.jpg'
     },
     {
       name:'Sayan Das',
       designation:'Core Member',
       qualification:'6295064322',
-      image:''
+      image:'/assets/images/members/sayan.jpg'
     }
     ,
     {
@@ -137,13 +137,13 @@ export class TeamsComponent
       name:'Chirag Gupta',
       designation:'Coordinator',
       qualification:'7003924897',
-      image:''
+      image:'/assets/images/members/chi.jpeg'
     },
     {
       name:'Shayak Karan',
       designation:'Coordinator',
       qualification:'9123362188',
-      image:''
+      image:'/assets/images/members/sayak.jpeg'
     }
   ]
 

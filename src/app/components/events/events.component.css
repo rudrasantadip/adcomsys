@@ -132,7 +132,7 @@ opacity: 1;
 
     font-family: "Sedan SC", serif;
     border: 2px solid white;
-    width: 310px;
+    width: 100px;
     height: 3px;
     transform: translateX(-100%) translateY(60vh);
   }
@@ -142,7 +142,7 @@ opacity: 1;
 
     font-family: "Sedan SC", serif;
     border: 2px solid white;
-    width: 299px;
+    width: 100px;
     height: 3px;
     transform: translateX(0%) translateY(175vh);
 
@@ -155,3 +155,29 @@ opacity: 1;
 
 
 
+  @media only screen and (max-width: 900px) {
+    .timeline-content
+    {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .timeline-content img
+    {
+      width: 300px;
+    }
+
+    .line
+    {
+      display: none;
+    }
+    .left-line
+    {
+      display: none;
+    }
+
+    .right-line
+    {
+      display: none;
+    }
+}

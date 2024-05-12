@@ -18,3 +18,15 @@
   margin-top: 16px;
   border-radius: 13px;
 }
+
+@media only screen and (max-width: 600px){
+  .content img
+  {
+    width: 200px;
+  }
+
+  span
+  {
+    font-size: 12px;
+  }
+}

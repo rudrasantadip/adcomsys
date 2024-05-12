@@ -11,6 +11,7 @@ import { TeamsComponent } from './components/teams/teams.component';
 import { AnimateOnScrollDirective } from './directives/animate-on-scroll.directive';
 import { LoaderComponent } from './components/loader/loader.component';
 import { BodyComponent } from './components/body/body.component';
+import { PartnerComponent } from './components/partner/partner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BodyComponent } from './components/body/body.component';
     TeamsComponent,
     AnimateOnScrollDirective,
     LoaderComponent,
-    BodyComponent
+    BodyComponent,
+    PartnerComponent
   ],
   imports: [
     BrowserModule,
