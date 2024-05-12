@@ -1,1 +1,121 @@
-<p>teams works!</p>
+<h1
+ style="
+ color: white;
+ font-size: 90px;
+ 
+ "
+ class="text-center"
+ > Meet Our Team!</h1>
+
+
+<section class="core mt-3 container">
+    <div class="heading">
+        <h2 style="color: white;
+        font-size: 45px;"
+        >Core Team</h2>
+
+
+        <div class="members">
+            <div class="member" *ngFor="let member of coreMembers">
+                <div class="image text-center">
+                    <img [src]="member.image==''? '/assets/images/members/profile.jpg':member.image" alt="">
+                </div>
+                <div class="info">
+                    <div class="name text-center">
+                        <span style="color: white;">{{member.name}}</span>
+                    </div>
+                    <div class="designation text-center">
+                        <span style="color: white;">{{member.designation}}</span>
+                    </div>
+                    <div class="education text-center">
+                        <span style="color: white;"><i style="color: white;" class="fa-solid fa-phone"></i> {{member.qualification}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="coordinators container">
+<div class="heading">
+    <h2 style="color: white;
+    font-size: 45px;"
+    >Coordinators</h2>
+
+    <div class="members">
+        <div class="member" *ngFor="let member of coordinators">
+            <div class="image text-center">
+                <img [src]="member.image==''? '/assets/images/members/profile.jpg':member.image" alt="">
+            </div>
+            <div class="info">
+                <div class="name text-center">
+                    <span style="color: white;">{{member.name}}</span>
+                </div>
+                <div class="designation text-center">
+                    <span style="color: white;">{{member.designation}}</span>
+                </div>
+                <div class="education text-center">
+                    <span style="color: white;"><i style="color: white;" class="fa-solid fa-phone"></i> {{member.qualification}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+<section class="task-force container">
+<div class="heading">
+    <h2 style="color: white;
+    font-size: 45px;"
+    >TaskForce</h2>
+</div>
+
+<div class="members">
+    <div class="member" *ngFor="let member of taskForce">
+        <div class="image text-center">
+            <img [src]="member.image==''? '/assets/images/members/profile.jpg':member.image" alt="">
+        </div>
+        <div class="info">
+            <div class="name text-center">
+                <span style="color: white;">{{member.name}}</span>
+            </div>
+            <div class="designation text-center">
+                <span style="color: white;">{{member.designation}}</span>
+            </div>
+            <div class="education text-center">
+                <span style="color: white;"><i style="color: white;" class="fa-solid fa-phone"></i> {{member.qualification}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="volunteer container">
+    <div class="heading">
+        <h2 style="color: white;
+        font-size: 45px;"
+        >Volunteers</h2>
+    </div>
+    
+    <div class="members">
+        <div class="member" *ngFor="let member of volunteers">
+            <div class="image text-center">
+                <img [src]="member.image==''? '/assets/images/members/profile.jpg':member.image" alt="">
+            </div>
+            <div class="info">
+                <div class="name text-center">
+                    <span style="color: white;">{{member.name}}</span>
+                </div>
+                <div class="designation text-center">
+                    <span style="color: white;">{{member.designation}}</span>
+                </div>
+                <div class="education text-center">
+                    <span style="color: white;"><i style="color: white;" class="fa-solid fa-phone"></i> {{member.qualification}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>

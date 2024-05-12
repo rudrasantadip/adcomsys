@@ -1,0 +1,71 @@
+h1{
+    font-family: "Sedan SC", serif;
+}
+
+h2
+{
+    font-family: "Sedan SC", serif; 
+}
+
+.member
+{
+    margin-top: 25px;
+    margin-right: 12px;
+    transition: all 0.5s;
+    border-radius:12px ;
+}
+
+.member img
+{
+    transform: scale(1.2) translateY(30%);
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.member:hover .image img
+{
+    transform: scale(1.0) translateY(-7%);
+    border-radius: 10px;
+}
+
+.member span
+{
+    opacity: 0;
+}
+
+
+.member:hover span
+{
+    opacity: 1;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+
+.members
+{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+grid-gap: 25px;
+}
+
+span
+{
+    font-family: "Sedan SC", serif;
+}
+
+.name span
+{
+    font-size:26px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.volunteer
+{
+    margin-top: 16px;
+}

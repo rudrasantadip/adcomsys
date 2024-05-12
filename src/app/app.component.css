@@ -62,23 +62,21 @@ h2
 
 .home
 {
-    margin-top: 13px;
+    height: 600px;
 }
 
 .about
 {
-    margin-top: 23px;
-
+    
 }
 
 .events
 {
-    margin-top: 13px;
 }
 
 .team
 {
-    margin-top: 13px;
+ height: 600px;  
 }
 
 

@@ -1,1 +1,32 @@
-<p>events works!</p>
+<!-- timeline.component.html -->
+<h1 style="color: white; font-size: 90px;" class="text-center">Events Timeline</h1>
+
+
+<div class="line">
+    
+</div>
+
+<div class="timeline">
+    <div class="timeline-item" *ngFor="let event of events; let i = index" [ngClass]="{ 'left': i % 2 === 0, 'right': i % 2 !== 0 }">
+      <div class="timeline-content"  appAnimateOnScroll>
+        <img [src]="event.imageUrl" alt="Event Image" class="event-image">
+
+        <h3 class="name">{{ event.title }}</h3>
+
+        <p class="desc">{{ event.description }}</p>
+
+        <span class="date">{{ event.date }}</span>
+
+        <span class="time">{{ event.time }}</span>
+
+      <button class="register-btn btn btn-outline-light ms-2" (click)="register(event)" >Register</button> 
+      </div>
+    </div>
+    <div class="line text-center" style="color: white;">
+      <div class="right-line"></div>
+      <div class="left-line"></div>
+    </div>
+
+
+  </div>
+  

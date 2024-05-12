@@ -8,6 +8,7 @@
     opacity: 0;
    animation: appear 1s forwards;
    animation-delay: 0.3s;
+   z-index: 9999;
 
 }
 
