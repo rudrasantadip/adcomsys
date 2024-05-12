@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import { EventsComponent } from './components/events/events.component';
 import { TeamsComponent } from './components/teams/teams.component';
 import { AnimateOnScrollDirective } from './directives/animate-on-scroll.directive';
+import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AnimateOnScrollDirective } from './directives/animate-on-scroll.directi
     AboutComponent,
     EventsComponent,
     TeamsComponent,
-    AnimateOnScrollDirective
+    AnimateOnScrollDirective,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,

@@ -130,6 +130,7 @@ opacity: 1;
   .left-line
   {
 
+    font-family: "Sedan SC", serif;
     border: 2px solid white;
     width: 310px;
     height: 3px;
@@ -139,11 +140,17 @@ opacity: 1;
   .right-line
   {
 
+    font-family: "Sedan SC", serif;
     border: 2px solid white;
     width: 299px;
     height: 3px;
     transform: translateX(0%) translateY(175vh);
 
+  }
+
+  #line3
+  {
+    transform: translateX(-100%) translateY(270vh);
   }
 
 

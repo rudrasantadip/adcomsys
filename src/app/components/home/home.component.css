@@ -7,3 +7,45 @@ font-weight: 400;
 font-style: normal;
 color: white;
 }
+
+
+.contact
+{
+    margin-top: 12px;
+    width: 500px;
+    height: 100px;
+}
+
+.contact ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact ul li a i
+{
+    color: white;
+    font-size:40px;
+    /* font-family: "Sedan SC", serif; */
+    transition: all 0.5s;
+}
+
+.contact ul li a i:hover
+{
+    color: red;
+    transform: scale(1.1);
+}
+
+.mobile
+{
+    display: flex;
+    flex-direction: column;
+}
+.mobile li
+{
+    margin: 9px;
+    color: white;
+    font-size:20px;
+}

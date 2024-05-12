@@ -29,14 +29,14 @@ export class TeamsComponent
     },
     {
       name:'Soumik Das',
-      designation:'	7601885361',
-      qualification:'B.Tech 2nd Year',
+      designation:'Core Member',
+      qualification:'7601885361',
       image:''
     },
     {
       name:'Sayan Das',
-      designation:'6295064322',
-      qualification:'B.Tech 2nd Year',
+      designation:'Core Member',
+      qualification:'6295064322',
       image:''
     }
     ,
@@ -229,12 +229,6 @@ export class TeamsComponent
       name:'Ritika Das',
       designation:'Volunteer',
       qualification:'9475322271',
-      image:''
-    },
-    {
-      name:'Rishab Deb Paul',
-      designation:'Volunteer',
-      qualification:'B.Tech 2nd Year',
       image:''
     },
     {

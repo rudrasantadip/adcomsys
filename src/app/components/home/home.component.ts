@@ -54,4 +54,13 @@ export class HomeComponent implements OnInit {
       return Math.round(this.screenWidth * 0.014); // 3% of screen width for small screens
     }
   }
+
+  iconsFont():number
+  {
+    if (this.screenWidth >= 768) {
+      return Math.round(this.screenWidth * 0.02);
+    } else {
+      return Math.round(this.screenWidth * 0.05); 
+    }
+  }
 }
