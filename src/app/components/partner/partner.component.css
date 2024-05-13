@@ -9,46 +9,78 @@ font-style: normal;
 color: white;
 }
 
-
-
-.block
+.partners
 {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+ 
 }
 
-.block-item
+.partner
 {
-    width: 300px;
-    height: 300px;
+    margin-top: 15px;
 }
 
-.block-item img
+.partner h2
+{
+    color: white;
+    font-family: "Sedan SC", serif;
+    text-align: center;
+}
+
+.items
+{
+display: flex;
+justify-content: space-around;
+}
+
+
+.item img
 {
     width: 200px;
-    height: 200px;
     border-radius: 200px;
-    display: block;
-    margin: auto;
 }
+
+.item
+{
+    transition: all 0.5s ease-in;
+    object-fit: cover;
+}
+
+.item:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+#gfg
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     .container h1
     {
         font-size: 50px;
     }
-    .block
-{
-    margin-top: 17px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.block-item
-{
-  
-}
+    .items
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item
+    {
+        margin-top: 16px;
+    }
 }

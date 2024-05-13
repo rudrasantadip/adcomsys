@@ -11,9 +11,11 @@ color: white;
 
 .contact
 {
-    margin-top: 12px;
+    margin-top: 18px;
     width: 500px;
     height: 100px;
+    display: flex;
+    flex-direction:column;
 }
 
 .contact ul
@@ -34,7 +36,7 @@ color: white;
 
 .contact ul li a i:hover
 {
-    color: red;
+    /* color: red; */
     transform: scale(1.1);
 }
 
@@ -48,4 +50,7 @@ color: white;
     margin: 9px;
     color: white;
     font-size:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

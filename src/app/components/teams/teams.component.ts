@@ -68,13 +68,13 @@ export class TeamsComponent
       name:'Santadip Rudra',
       designation:'Core Member',
       qualification:'7044522841',
-      image:'/assets/images/members/santadip_rudra.jpg'
+      image:'/assets/images/members/santadip.jpeg'
     },
     {
       name:'Samiran Jana',
       designation:'Core Member',
       qualification:'9735575264',
-      image:'/assets/images/members/samiran.jpg'
+      image:'/assets/images/members/samiran.jpeg'
     },
     {
       name:'Ayan Chatterjee',

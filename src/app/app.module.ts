@@ -12,6 +12,7 @@ import { AnimateOnScrollDirective } from './directives/animate-on-scroll.directi
 import { LoaderComponent } from './components/loader/loader.component';
 import { BodyComponent } from './components/body/body.component';
 import { PartnerComponent } from './components/partner/partner.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PartnerComponent } from './components/partner/partner.component';
     AnimateOnScrollDirective,
     LoaderComponent,
     BodyComponent,
-    PartnerComponent
+    PartnerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
