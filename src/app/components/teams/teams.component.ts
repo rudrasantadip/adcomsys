@@ -103,29 +103,12 @@ export class TeamsComponent
   ];
 
   coordinators:Member[]=[
-    {
-      name:'Dipta Banik',
-      designation:'Coordinator',
-      qualification:'8018828337',
-      image:''
-    },
-    {
-      name:'Sayantan Das',
-      designation:'Coordinator',
-      qualification:'9163816571',
-      image:''
-    },
+   
     {
       name:'Samrat Das',
       designation:'Coordinator',
       qualification:'6291999868',
       image:'/assets/images/members/samrat_das.JPG'
-    },
-    {
-      name:'Rohit Mistry',
-      designation:'Coordinator',
-      qualification:'6291417556',
-      image:''
     },
     {
       name:'Pratyay Chatterjee',
@@ -162,12 +145,6 @@ export class TeamsComponent
       image:'/assets/images/members/joy_koley.jpg'
     },
     {
-      name:'Puspendu Sarangi',
-      designation:'Task Force',
-      qualification:'7980291173',
-      image:''
-    },
-    {
       name:'Mohit Sarkar',
       designation:'Task Force',
       qualification:'9330726358',
@@ -200,12 +177,6 @@ export class TeamsComponent
       designation:'Volunteer',
       qualification:'8777073845',
       image:'/assets/images/members/ishita_mondal.jpg'
-    },
-    {
-      name:'Anuran Bhaumik',
-      designation:'Volunteer',
-      qualification:'9007811583',
-      image:'/assets/images/members/anuran_bhowmik.jpg'
     },
     {
       name:'Rishab Deb Paul',
@@ -243,18 +214,6 @@ export class TeamsComponent
       qualification:'8777373893',
       image:''
     },
-    {
-      name:'Pinaki P Singha',
-      designation:'Volunteer',
-      qualification:'9874192102',
-      image:''
-    },
-    {
-      name:'Jeet Dutta',
-      designation:'Volunteer',
-      qualification:'8697691238',
-      image:''
-    }
   ];
 
 
