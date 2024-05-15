@@ -69,3 +69,28 @@ span
 {
     margin-top: 16px;
 }
+
+
+@media only screen and (max-width: 899px){
+
+    .heading
+    {
+        text-align: center;
+    }
+
+    .members
+    {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .member img
+    {
+        transform: scale(1.2) translateY(30%);
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+        object-fit: cover;
+        transition: all 0.5s;
+    }
+}
