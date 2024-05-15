@@ -105,5 +105,10 @@ transform: translateY(10px);
 @media only screen and (max-width: 600px){
     .navbar{
         height: 120px;
+        width: 400px;
+    }
+
+    .navbar ul{
+        width: 400px;
     }
 }
