@@ -127,6 +127,12 @@ export class TeamsComponent
       designation:'Coordinator',
       qualification:'9123362188',
       image:'/assets/images/members/sayak.jpeg'
+    },
+    {
+      name:'Anuran Bhowmik',
+      designation:'Coordinator',
+      qualification:'9123362188',
+      image:'/assets/images/members/anuran.jpeg'
     }
   ]
 
@@ -136,7 +142,7 @@ export class TeamsComponent
       name:'Saswata Mukherjee',
       designation:'Task Force',
       qualification:'8584874226',
-      image:''
+      image:'/assets/images/members/saswata.jpeg'
     },
     {
       name:'Ayan Koley',
@@ -194,25 +200,25 @@ export class TeamsComponent
       name:'Pratik Saha',
       designation:'Volunteer',
       qualification:'7890330005',
-      image:''
+      image:'/assets/images/members/pratik_saha.jpg'
     },
     {
       name:'Ritika Das',
       designation:'Volunteer',
       qualification:'9475322271',
-      image:''
+      image:'/assets/images/members/ritika_das.jpeg'
     },
     {
       name:'Diya Maji',
       designation:'Volunteer',
       qualification:'9874749434',
-      image:''
+      image:'/assets/images/members/diya_maji.jpeg'
     },
     {
       name:'Disha Basak',
       designation:'Volunteer',
       qualification:'8777373893',
-      image:''
+      image:'/assets/images/members/disha_basak.jpeg'
     },
   ];
 
