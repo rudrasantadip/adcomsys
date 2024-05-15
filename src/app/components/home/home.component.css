@@ -58,10 +58,10 @@ color: white;
 @media only screen and (max-width: 600px){
     .main-heading h1
     {
-        font-size: 16px;
+        font-size: 22px;
     }
     .blockquote
     {
-        font-size: 12px;
+        font-size: 14px;
     }
 }

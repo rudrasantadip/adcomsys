@@ -7,6 +7,11 @@ h2
     font-family: "Sedan SC", serif; 
 }
 
+.team-heading
+{
+    font-size: 90px;
+}
+
 .member
 {
     margin-top: 25px;
@@ -73,6 +78,10 @@ span
 
 @media only screen and (max-width: 899px){
 
+    .team-heading
+    {
+        font-size: 22px;
+    }
     .heading
     {
         text-align: center;

@@ -5,6 +5,13 @@ h1
 {
   font-family: "Sedan SC", serif;
 }
+
+.event-timeline
+{
+  font-size: 90px;
+}
+
+
 .timeline {
     display: flex;
     flex-direction: column;
@@ -154,6 +161,13 @@ opacity: 1;
   }
 
 
+  @media only screen and (max-width: 600px){
+
+    .event-timeline
+    {
+      font-size: 22px;
+    }
+  }
 
   @media only screen and (max-width: 900px) {
     .timeline-content

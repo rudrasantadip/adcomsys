@@ -20,6 +20,11 @@
 }
 
 @media only screen and (max-width: 600px){
+
+  .blockquote
+  {
+    font-size: 14px;
+  }
   .content img
   {
     width: 200px;
