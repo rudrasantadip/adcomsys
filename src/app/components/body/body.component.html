@@ -1,6 +1,7 @@
 <div class="header bg-light">
     <div class="logo logo-adcomsys"><img [style.width.px]="getImageWidth()" src="/assets/images/adcomsys.webp" alt=""></div>
   
+    <!-- navigation bar component : go to /app/components/navigation to edit -->
     <app-navigation (linkClicked)="scrollToSection($event)" ></app-navigation>
   
     <div class="colleges">
@@ -31,12 +32,16 @@
     <section class="partners" id="section3">
       <app-partner></app-partner>
     </section>
+
+    <section class="partners" id="section4">
+      <app-countdown></app-countdown>
+    </section>
   
-    <section class="events" id="section4">
+    <section class="events" id="section5">
       <app-events></app-events>
     </section>
 
-    <section class="team" id="section5">
+    <section class="team" id="section6">
       <app-teams></app-teams>
     </section>
   </div>

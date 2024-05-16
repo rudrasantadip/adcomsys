@@ -2,7 +2,7 @@
     <ul class="bg-light">
         
         <li class="list">
-            <a href="#" (click)="onLinkClick('section1')">
+            <a  (click)="onLinkClick('section1')">
                 <div class="icon"><i class="fa-solid fa-home"></i></div>
                 <div class="txt">Home</div>
             </a>
@@ -24,12 +24,18 @@
 
         <li class="list">
             <a  (click)="onLinkClick('section4')">
+                <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                <div class="txt">CountDown</div>
+            </a>
+        </li>
+        <li class="list">
+            <a  (click)="onLinkClick('section5')">
                 <div class="icon"><i class="fa-solid fa-calendar-week"></i></div>
                 <div class="txt">Events</div>
             </a>
         </li>
         <li class="list">
-            <a  (click)="onLinkClick('section5')">
+            <a  (click)="onLinkClick('section6')">
                 <div class="icon"><i class="fa-solid fa-people-arrows"></i></div>
                 <div class="txt">Management Team</div>
             </a>

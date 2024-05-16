@@ -167,9 +167,19 @@ opacity: 1;
     {
       font-size: 22px;
     }
+
+    .event-image
+    {
+      width: 200px;
+    }
   }
 
   @media only screen and (max-width: 1000px) {
+
+    .event-image
+    {
+      width: 200px;
+    }
     
     .event-timeline
     {

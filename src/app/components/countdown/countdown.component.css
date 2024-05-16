@@ -1,0 +1,58 @@
+h1
+{
+    color: white;
+    font-family: "Sedan SC", serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+
+#countdown {
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    /* background-color: #282c34; */
+    padding: 20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #countdown div {
+    margin: 10px 0;
+    font-size: 2em;
+  }
+  
+  #countdown span {
+    font-weight: bold;
+  }
+  
+
+  /* Media query for screens smaller than 768px (tablets, small devices) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+    }
+    #countdown {
+        flex-direction: column; /* Stack the items vertically */
+    }
+    #countdown div {
+        font-size: 1.5em;
+    }
+}
+
+/* Media query for screens smaller than 480px (phones, very small devices) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+    #countdown {
+        padding: 10px;
+    }
+    #countdown div {
+        font-size: 1.2em;
+    }
+}

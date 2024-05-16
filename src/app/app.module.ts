@@ -13,6 +13,7 @@ import { LoaderComponent } from './components/loader/loader.component';
 import { BodyComponent } from './components/body/body.component';
 import { PartnerComponent } from './components/partner/partner.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CountdownComponent } from './components/countdown/countdown.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     LoaderComponent,
     BodyComponent,
     PartnerComponent,
-    FooterComponent
+    FooterComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
