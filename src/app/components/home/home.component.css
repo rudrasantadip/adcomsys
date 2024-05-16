@@ -8,7 +8,10 @@ font-style: normal;
 color: white;
 }
 
-
+.blockquote
+{
+    font-family: "Sedan SC", serif;
+}
 .contact
 {
     margin-top: 18px;
@@ -16,6 +19,13 @@ color: white;
     height: 100px;
     display: flex;
     flex-direction:column;
+}
+
+.contact
+{
+   margin: auto;
+   display: flex;
+   justify-content: center;
 }
 
 .contact ul
@@ -55,7 +65,21 @@ color: white;
     align-items: center;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
+
+    .contact
+    {
+       width: 200px;  
+       align-items: center;
+
+    }
+    .contact ul li
+    {
+        margin-left: 9px;
+        margin-left: 9px;
+    }
+
+
     .main-heading h1
     {
         font-size: 22px;
