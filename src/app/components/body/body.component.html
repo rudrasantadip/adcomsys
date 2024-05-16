@@ -1,4 +1,7 @@
-<div class="header bg-light">
+
+<!-- TOP HEADER STARTS -->
+
+<div class="header bg-light" [style.width.px]="setHeaderWidth()">
     <div class="logo logo-adcomsys"><img [style.width.px]="getImageWidth()" src="/assets/images/adcomsys.webp" alt=""></div>
   
     <!-- navigation bar component : go to /app/components/navigation to edit -->
@@ -8,8 +11,10 @@
       <div class="logo logo-iem"><img [style.width.px]="getImageWidth()" src="/assets/images/iem.webp" alt=""></div>
       <div class="logo logo-uem"><img [style.width.px]="getImageWidth()" src="/assets/images/uem.webp" alt=""></div>
     </div>  
-  </div>
-  
+</div>
+
+
+  <!-- HEADER ENDS -->
   
   <div class="heading">
     <h2 [style.fontSize.px]="getFontSize()">First International Conference on Advanced Computing and Systems</h2>

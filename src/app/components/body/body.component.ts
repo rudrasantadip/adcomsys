@@ -7,10 +7,12 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent {
+
+  //variable to store the current screen width
   screenWidth:number;
   constructor(private viewportScroller: ViewportScroller)
   {
-    this.screenWidth=window.innerWidth;
+    this.screenWidth=window.innerWidth; // setting the screen with as the current window size
   }
 
   //function for navigation scrolling
@@ -18,12 +20,20 @@ export class BodyComponent {
     this.viewportScroller.scrollToAnchor(sectionId);
   }
 
+  //event listener for screen size change
   @HostListener('window:resize',['$event'])
   onResize(event:any)
   {
     this.screenWidth=window.innerWidth;
   }
 
+  //Setting the header width
+  setHeaderWidth():number
+  {
+    return this.screenWidth;
+  }
+
+  //Setting the image width wrt screen
   getImageWidth(): number {
     // Calculate image width based on screen width
     // You can adjust the logic based on your requirements
@@ -34,6 +44,7 @@ export class BodyComponent {
     }
   }
 
+  //Setting the font size wrt screen
   getFontSize(): number {
     // Calculate font size based on screen width
     // You can adjust the logic based on your requirements
