@@ -6,6 +6,15 @@
   background-position: center;
   background-size: contain;
   /* filter: blur(10px); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blockquote
+{
+  font-family: "Sedan SC", serif;
+  text-align: justify;
 }
 
 .content:hover

@@ -11,6 +11,7 @@ color: white;
 .blockquote
 {
     font-family: "Sedan SC", serif;
+    text-align: justify;
 }
 .contact
 {

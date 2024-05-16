@@ -2,22 +2,14 @@
 
     <h1>Our Partners</h1>
 
-   
+   <!-- Add partner logos here -->
     <div class="partners">
         <div class="partner">
             <h2>Community Partner</h2>
 
             <div class="items">
-                <div class="item">
-                    <img src="/assets/images/csi.jpeg" alt="">
-                </div>
-                
-                <div class="item">
-                    <img src="/assets/images/gfg.jpeg" alt="">
-                </div>
-
-                <div class="item">
-                    <img src="/assets/images/iete.jpeg" alt="">
+                <div class="item" *ngFor="let partner of communityPartners">
+                    <img [src]="partner.logoUrl" alt="">
                 </div>
             </div>
         </div>
@@ -26,8 +18,8 @@
             <h2>Technical Partner</h2>
 
             <div class="items">
-                <div class="item" id="gfg">
-                    <img src="/assets/images/gfg-bg-less.png" alt="">
+                <div class="item"*ngFor="let partner of technicalPartners" id="gfg">
+                    <img [src]="partner.logoUrl" alt="">
                 </div>
             </div>
         </div>

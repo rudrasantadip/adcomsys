@@ -56,7 +56,6 @@ font-size: 1.5em;
 text-align: center;
 color: black;
 transition: 0.5s;
-
 }
 .navbar ul li:hover a .icon
 {
@@ -101,10 +100,14 @@ transform: translateY(10px);
     }
 }
 
-@media only screen and (max-width: 600px){
-    .navbar{
-        height: 120px;
-        width: 400px;
-        margin: auto;
+@media only screen and (max-width: 1000px){
+    .navbar
+    {
+    
     }
+    .navbar ul
+    {
+        width: 250px;
+    }
+
 }
