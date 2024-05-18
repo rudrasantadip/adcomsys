@@ -13,6 +13,11 @@ color: white;
     font-family: "Sedan SC", serif;
     text-align: justify;
 }
+
+.about-adcomsys
+{
+    align-items: center;
+}
 .contact
 {
     margin-top: 18px;

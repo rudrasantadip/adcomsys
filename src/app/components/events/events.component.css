@@ -127,7 +127,7 @@ opacity: 1;
   {
     position: absolute;
     left: 50%;
-    height: 350vh;
+    height: 450vh;
     width: 4px;
     z-index: 1000;
     border: 2px solid white;
@@ -158,6 +158,11 @@ opacity: 1;
   #line3
   {
     transform: translateX(-100%) translateY(270vh);
+  }
+  
+  #line4
+  {
+    transform: translateX(0%) translateY(420vh);
   }
 
 
