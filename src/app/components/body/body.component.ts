@@ -49,9 +49,9 @@ export class BodyComponent {
     // Calculate font size based on screen width
     // You can adjust the logic based on your requirements
     if (this.screenWidth >= 768) {
-      return Math.round(this.screenWidth * 0.02); // 2% of screen width for large screens
+      return Math.round(this.screenWidth * 0.018); // 2% of screen width for large screens
     } else {
-      return Math.round(this.screenWidth * 0.03); // 3% of screen width for small screens
+      return Math.round(this.screenWidth * 0.017); // 3% of screen width for small screens
     }
   }
 }
