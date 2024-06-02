@@ -57,6 +57,9 @@ h2
 .main
 {
 /* border: 2px solid red; */
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 

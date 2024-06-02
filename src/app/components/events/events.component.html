@@ -2,9 +2,6 @@
 <h1 style="color: white;" class="text-center event-timeline m-3">Events Timeline</h1>
 
 
-<div class="line">
-    
-</div>
 
 <div class="timeline">
     <div class="timeline-item" *ngFor="let event of events; let i = index" [ngClass]="{ 'left': i % 2 === 0, 'right': i % 2 !== 0 }">
@@ -22,17 +19,6 @@
       <button class="register-btn btn btn-outline-light ms-2" (click)="register(event)" >Register</button> 
      </div>
     </div>
-
-    <div class="line text-center" style="color: white;">
-      <div class="right-line">
-        26th June
-      </div>
-
-      <div class="left-line">26th June</div>
-      <div class="left-line" id="line3">27th June</div>
-      <div class="right-line" id="line4">27th June</div>
-    </div>
-
 
   </div>
   
