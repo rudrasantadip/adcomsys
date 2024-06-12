@@ -103,3 +103,10 @@ span
         transition: all 0.5s;
     }
 }
+
+@media only screen and (max-width: 1100px){
+    .member img{
+        width: 55px;
+        height: 55px;
+    }
+}
