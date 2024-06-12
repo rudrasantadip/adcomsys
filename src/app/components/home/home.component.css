@@ -77,12 +77,13 @@ color: white;
     {
        width: 200px;  
        align-items: center;
+       justify-content: center;
 
     }
     .contact ul li
     {
         margin-left: 9px;
-        margin-left: 9px;
+        margin-right: 9px;
     }
 
 
