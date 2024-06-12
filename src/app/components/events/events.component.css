@@ -1,5 +1,11 @@
 /* timeline.component.css */
 
+.container
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
 
 h1
 {
@@ -15,7 +21,6 @@ h1
 .timeline {
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
   }
   
   .timeline-item {
@@ -94,7 +99,6 @@ h1
   .timeline-content:hover img
   {
     transform: translateY(-10%) scale(0.9);
-
     cursor: pointer;
   }
 
@@ -125,15 +129,6 @@ opacity: 1;
 
 
 
-  .left-line
-  {
-
-    font-family: "Sedan SC", serif;
-    border: 2px solid white;
-    width: 100px;
-    height: 3px;
-    transform: translateX(-100%) translateY(60vh);
-  }
 
   
 
@@ -152,6 +147,9 @@ opacity: 1;
 
   @media only screen and (max-width: 1000px) {
 
+    .left,.right{
+      border: none;
+    }
     .event-image
     {
       width: 150px;

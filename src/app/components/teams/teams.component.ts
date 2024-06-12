@@ -173,6 +173,12 @@ export class TeamsComponent
       designation:'Task Force',
       qualification:'9163285863',
       image:'/assets/images/members/rajdeep_mondal.jpg'
+    },
+    {
+      name:'Saptarshi Chattaraj',
+      designation:'Task Force',
+      qualification:'9434565505',
+      image:'/assets/images/members/saptarshi.jpg'
     }
   ];
 

@@ -32,6 +32,10 @@ export class PartnerComponent {
     {
       pId:4,
       logoUrl:'/assets/images/pragya.jpeg'
+    },
+    {
+      pId:5,
+      logoUrl:'/assets/images/design.jpg'
     }
   ]
 

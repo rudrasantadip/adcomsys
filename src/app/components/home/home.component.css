@@ -39,7 +39,7 @@ color: white;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .contact ul li a i
